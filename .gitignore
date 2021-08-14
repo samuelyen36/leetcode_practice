@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+
+
+# Testing
+test.cpp
+
+# vscode
+.vscode
