@@ -32,7 +32,7 @@ public:
 
             stk.push_back(ptr);
         }
-        printf("%d\n",stk.size());
+        //printf("%d\n",stk.size());
         return stk.front();
     }
 };
