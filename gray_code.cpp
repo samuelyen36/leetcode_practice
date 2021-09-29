@@ -17,6 +17,7 @@ public:
 
 void Solution::back_tracking(vector<int>& res, int k, bitset<32>& bs){
     if(k==0){
+        cout<<bs.to_string()<<"\n";
         res.push_back(bs.to_ulong()); //push result into vector
     }
     else{
