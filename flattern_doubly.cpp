@@ -21,7 +21,9 @@ public:
                 ptr->next = ptr->child;
                 ptr->child = nullptr;
                 ptr->next->prev = ptr;
-                ori_next->prev = child_last;
+                if(ori_next){
+                    ori_next->prev = child_last;
+                }
                 child_last->next = ori_next;
             }
         }
